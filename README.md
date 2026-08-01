@@ -164,3 +164,6 @@ Custom styles layered on top of Bootstrap:
 - The application was developed and tested with Python 3.11 and Django 4.2.
 - All API endpoints that mutate data (`/api/mealplan/add/`, `/api/mealplan/remove/`) are protected with Django's CSRF middleware; the JavaScript client reads the CSRF token from the `csrftoken` cookie and includes it in the `X-CSRFToken` request header.
 - Nutritional data for ingredients is entered manually by the user when creating an ingredient. A future enhancement could integrate a third-party nutrition API to auto-populate these values.
+
+--------------------
+# Finally Accepted From Harvard ;)
